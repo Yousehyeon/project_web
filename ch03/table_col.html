@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>표 만들기</title>
+    <style>
+        table, th, td{
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+        th, td{
+            width:100px;
+            height:30px;
+        }
+        thead{
+            background: #eee;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <!--  부서명 칼럼(열)에 색상 지정  -->
+        <colgroup>
+            <col style="background: rgb(162, 0, 255)">;
+            <col style="background: #0f0;">
+            <col style="background: rgb(226, 52, 8)">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>부서번호</th>
+                <th>부서명</th>
+                <th>부서인원</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td>관리부</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>전산실</td>
+                <td>5</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
