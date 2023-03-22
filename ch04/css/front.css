@@ -1,0 +1,19 @@
+#container{
+    width: 520px;
+    padding: 20px ;
+    margin : 10px auto;
+    border : 1px solid #222;
+}
+ul li{
+    list-style: none;
+    margin: 10px;
+}
+textarea{
+    border: 1px dotted;
+    width: 450px;
+    height: 100px;
+    margin: 10px;
+}
+.accent{
+    font-size: 15;
+}
