@@ -1,0 +1,9 @@
+/* 전체 스타일 */
+*{margin: 0 auto; padding: 0;}
+/* 16:9 화면성 1600px로 설정 */
+#container{width: 100%; margin: 0 auto; box-sizing: border-box;}
+
+/* header영역 스타일 */
+header{height: 80px; background: #0f0;}
+header #logo{width: 300px; float: left 50px;}
+#logo h1 a{color:yellowgreen; text-decoration: none;}

@@ -15,15 +15,15 @@ header #logo{
     float: left;
     line-height: 80px;
 }
-header h1{
+header h1 a{
     color:#fff;
     padding-left: 20px;
 }
-.logo_a{
+.ab{
     color:#fff;
     text-decoration: none;
 }
-header h1:hover{
+header .ab:hover{
     color: yellow;
 }
 header nav{
@@ -39,13 +39,13 @@ nav ul{
 nav ul li{
     float:right;;
 }
-a{
+nav ul li a{
     display: block;
     padding: 0 20px;
     color: white;
     text-decoration:none;
 }
-a:hover{
+nav ul li a:hover{
     background-color: #2fb2fb;
     color: #fff;
 }
