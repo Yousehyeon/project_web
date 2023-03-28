@@ -1,4 +1,5 @@
 /* 전체 스타일 */
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300&family=Noto+Sans+KR:wght@700&display=swap");
 *{margin: 0; padding: 0;}
 /* 16:9  1600px로 설정*/
@@ -63,3 +64,13 @@ width: 700px; margin: 0 auto 50px;}
 #tbl_board td:nth-child(1){width: 50px;}
 .btn{text-align: right; margin-right: 250px;}
 .btn button{padding: 10px 15px; margin-bottom: 50px;}
+=======
+*{margin: 0 auto; padding: 0;}
+/* 16:9 화면성 1600px로 설정 */
+#container{width: 100%; margin: 0 auto; box-sizing: border-box;}
+
+/* header영역 스타일 */
+header{height: 80px; background: #0f0;}
+header #logo{width: 300px; float: left 50px;}
+#logo h1 a{color:yellowgreen; text-decoration: none;}
+>>>>>>> 0120e52c796b254ec718987e6f37ee3c78d4275e
